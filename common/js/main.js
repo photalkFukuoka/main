@@ -5,7 +5,7 @@ window.onload=function(){
     data: {
       eventTitle: '「ねこ撮り」',
       eventVolOn: 'Vol.11',
-      eventUrl: 'https://photalkFukuoka/.github.io/main/event/2020/10.html',
+      eventUrl: 'https://photalkFukuoka.github.io/main/event/2020/10.html',
       // eventVolOff: 'Vol.7',
       eventDateOn: '10/24(土) 15:00～',
       // eventDateOff: '2020.7.12～8/31',

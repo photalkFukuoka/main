@@ -3,26 +3,26 @@ Vue.component('header-component', {
   template: `
   <header class="header">
   <div class="header__block">
-    <h1><a href="https://photalkFukuoka/.github.io/main/index.html">Photalk Fukuoka</a></h1>
+    <h1><a href="https://photalkFukuoka.github.io/main/index.html">Photalk Fukuoka</a></h1>
   </div>
   <slide right width="400">
     <nav class="sidebar__inner">
       <div class="sidebar__box">
-        <h2 class="sidebar__ttl"><a href="https://photalkFukuoka/.github.io/main/index.html">トップページ</a></h2>
+        <h2 class="sidebar__ttl"><a href="https://photalkFukuoka.github.io/main/index.html">トップページ</a></h2>
         <ul>
-          <li id="menu-about" class="sidebar__txt"><a href="https://photalkFukuoka/.github.io/main/index.html#about">ABOUT</a></li>
-          <li id="menu-event" class="sidebar__txt"><a href="https://photalkFukuoka/.github.io/main/index.html#event">EVENT</a></li>
+          <li id="menu-about" class="sidebar__txt"><a href="https://photalkFukuoka.github.io/main/index.html#about">ABOUT</a></li>
+          <li id="menu-event" class="sidebar__txt"><a href="https://photalkFukuoka.github.io/main/index.html#event">EVENT</a></li>
         </ul>
       </div>
       <div class="sidebar__box">
-        <h2 class="sidebar__ttl"><a href="https://photalkFukuoka/.github.io/main/event/index.html">実施イベント</a></h2>
+        <h2 class="sidebar__ttl"><a href="https://photalkFukuoka.github.io/main/event/index.html">実施イベント</a></h2>
         <ul>
-          <li id="menu-event" class="sidebar__txt"><a href="https://photalkFukuoka/.github.io/main/event/index.html">EVENT INFO</a></li>
+          <li id="menu-event" class="sidebar__txt"><a href="https://photalkFukuoka.github.io/main/event/index.html">EVENT INFO</a></li>
           <ul>
             <li class="sidebar__txt">開催予定イベント</li>
               <ul>
-                <li class="sidebar__txt"><a href="https://photalkFukuoka/.github.io/main/event/2020/09.html">⇒2020/09</a></li>
-                <li class="sidebar__txt"><a href="https://photalkFukuoka/.github.io/main/event/2020/10.html">⇒2020/10</a></li>
+                <li class="sidebar__txt"><a href="https://photalkFukuoka.github.io/main/event/2020/09.html">⇒2020/09</a></li>
+                <li class="sidebar__txt"><a href="https://photalkFukuoka.github.io/main/event/2020/10.html">⇒2020/10</a></li>
               </ul>
             </li>
           </ul>
@@ -61,9 +61,9 @@ Vue.component('sns-component', {
   template:'<transition name="fade">'+ `  
   <div class="sns-area" :style="styles" v-if="show">
     <ul>
-      <li><a href="https://www.instagram.com/photalk_fukuoka/" target="_blank"><img src="https://photalkFukuoka/.github.io/main/common/img/sns_2.png" alt="instagramアイコン"></a></li>
-      <li><a href="https://twitter.com/maPhotalk" target="_blank"><img src="https://photalkFukuoka/.github.io/main/common/img/sns_1.png" alt="twitterアイコン"></a></li>
-      <li><a href="https://note.com/maphotalk" target="_blank"><img src="https://photalkFukuoka/.github.io/main/common/img/sns_3.png" alt="noteアイコン"></a></li>
+      <li><a href="https://www.instagram.com/photalk_fukuoka/" target="_blank"><img src="https://photalkFukuoka.github.io/main/common/img/sns_2.png" alt="instagramアイコン"></a></li>
+      <li><a href="https://twitter.com/maPhotalk" target="_blank"><img src="https://photalkFukuoka.github.io/main/common/img/sns_1.png" alt="twitterアイコン"></a></li>
+      <li><a href="https://note.com/maphotalk" target="_blank"><img src="https://photalkFukuoka.github.io/main/common/img/sns_3.png" alt="noteアイコン"></a></li>
     </ul>
   </div>`,
   computed: {
