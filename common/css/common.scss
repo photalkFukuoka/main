@@ -188,9 +188,9 @@ a {
 #menu-event {
   background-image: url(../../img/icon_event.svg);
 }
-#menu-ex {
-  background-image: url(../../img/icon_ex.svg);
-}
+// #menu-ex {
+//   background-image: url(../../img/icon_ex.svg);
+// }
 
 /* ----- hamburger ----- */
 /* vue-burger-menu*/
@@ -247,7 +247,7 @@ a {
     writing-mode: vertical-rl;
     display: flex;
     justify-content: space-around;
-    animation: fadeinLeft .9s ease-in 1;
+    animation: fadekv .9s ease-in 1;
     li {
       font-size: 1rem;
       font-weight: 700;
@@ -799,17 +799,12 @@ button {
 }
 
 /* ----- animation keyflames ----- */
-@keyframes fadeinRight {
+@keyframes fadekv {
   0% {
     opacity: 0;
-    transform: translate(50%,-50%);
-  }
-  90% {
-    opacity: 0.7;
   }
   100% {
     opacity: 1;
-    transform: translate(0,-50%);
   }
 }
 
