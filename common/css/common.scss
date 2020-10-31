@@ -247,7 +247,7 @@ a {
     writing-mode: vertical-rl;
     display: flex;
     justify-content: space-around;
-    animation: fadekv .9s ease-in 1;
+    animation: fadeinRight .9s ease-in 1;
     li {
       font-size: 1rem;
       font-weight: 700;
@@ -346,7 +346,7 @@ a {
     max-width: 396px;
     width: 100%;
     height: 294px;
-    animation: fadeinRight .5s ease-out 1;
+    animation: fadekv 1.5s ease-out 1;
   }
 }
 .slider-inner{
@@ -807,7 +807,19 @@ button {
     opacity: 1;
   }
 }
-
+@keyframes fadeinRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 @keyframes fadeinLeft {
   0% {
     opacity: 0;

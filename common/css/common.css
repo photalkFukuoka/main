@@ -290,7 +290,7 @@ a:hover {
   writing-mode: vertical-rl;
   display: flex;
   justify-content: space-around;
-  animation: fadekv .9s ease-in 1;
+  animation: fadeinRight .9s ease-in 1;
 }
 
 #anker-link ul li {
@@ -399,7 +399,7 @@ a:hover {
   max-width: 396px;
   width: 100%;
   height: 294px;
-  animation: fadeinRight .5s ease-out 1;
+  animation: fadekv 1.5s ease-out 1;
 }
 
 .slider-inner {
@@ -915,6 +915,20 @@ button {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fadeinRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
