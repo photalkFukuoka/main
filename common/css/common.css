@@ -290,7 +290,11 @@ a:hover {
   writing-mode: vertical-rl;
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
+  animation: fadekv .9s ease-in 1;
+=======
   animation: fadeinRight .9s ease-in 1;
+>>>>>>> 51bab1c4bcd225a458b2a9a73965150db52ef298
 }
 
 #anker-link ul li {
@@ -910,6 +914,13 @@ button {
 
 /* ----- animation keyflames ----- */
 @keyframes fadekv {
+<<<<<<< HEAD
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+=======
   0% {
     opacity: 0;
   }
@@ -929,6 +940,7 @@ button {
   100% {
     opacity: 1;
     transform: translateX(0);
+>>>>>>> 51bab1c4bcd225a458b2a9a73965150db52ef298
   }
 }
 
