@@ -41,7 +41,6 @@ Vue.component('footer-component', {
   <p>Photalk Fukuoka（旧：写話会福岡）</p>
   <ul>
     <li><a href="https://www.instagram.com/photalk_fukuoka/" target="_blank">instagram</a></li>
-    <li><a href="https://twitter.com/maPhotalk" target="_blank">twitter</a></li>
     <li><a href="https://note.com/maphotalk" target="_blank">note</a></li>
   </ul>
   <div class="copyright">
@@ -62,7 +61,6 @@ Vue.component('sns-component', {
   <div class="sns-area" :style="styles" v-if="show">
     <ul>
       <li><a href="https://www.instagram.com/photalk_fukuoka/" target="_blank"><img src="https://photalkFukuoka.github.io/main/common/img/sns_2.png" alt="instagramアイコン"></a></li>
-      <li><a href="https://twitter.com/maPhotalk" target="_blank"><img src="https://photalkFukuoka.github.io/main/common/img/sns_1.png" alt="twitterアイコン"></a></li>
       <li><a href="https://note.com/maphotalk" target="_blank"><img src="https://photalkFukuoka.github.io/main/common/img/sns_3.png" alt="noteアイコン"></a></li>
     </ul>
   </div>`,
@@ -174,7 +172,6 @@ Vue.component('FadeInComponent', {
     }
   }
 });
-
 
 const {Slide} = window['vue-burger-menu'];
 Vue.component('slide', Slide);
